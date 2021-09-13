@@ -17,6 +17,7 @@ spec:
 {{- end }}
       paths:
       - path: /coupon-api
+        pathType: prefix 
         backend:
           service:
             name: coupon-api
