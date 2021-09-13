@@ -18,5 +18,7 @@ spec:
       paths:
       - path: /coupon-api
         backend:
-          serviceName: coupon-api
-          servicePort: 80
+          service:
+            name: coupon-api
+            port: 
+              number: 80
